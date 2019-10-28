@@ -1,7 +1,7 @@
 import math
-a=input("Enter length of side 1:")
-b=input("Enter length of side 2:")
-x = (a*a) + (b*b)
+a=input("Enter side 1:")
+b=input("Enter side 2:")
+x = pow(a,2) + pow(b,2)
 c = math.sqrt(x)
 if(a>0 and b>0):
 	print("Length of the hypotenuse is:"+ str(c))
